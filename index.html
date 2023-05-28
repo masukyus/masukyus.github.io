@@ -11,6 +11,16 @@
             border-radius: 4px;
             cursor: pointer;
         }
+
+        .wallet-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .twitter-button {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -20,7 +30,6 @@
         <h2>Profil</h2>
         <p>Kullanıcı Adı: <span id="username"></span></p>
         <p>Toplam Puan: <span id="totalPoints"></span> XP</p>
-        <button id="walletButton" class="btn">Cüzdan</button>
     </div>
 
     <div id="activity">
@@ -37,6 +46,9 @@
             </tbody>
         </table>
     </div>
+
+    <button id="walletButton" class="btn wallet-button">Cüzdan</button>
+    <button id="twitterButton" class="btn twitter-button">Twitter Bağlantısı</button>
 
     <script src="script.js"></script>
 </body>
