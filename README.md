@@ -3,7 +3,7 @@
 
 Bu proje, kullanıcıların Twitter etkinliklerine göre kazanabilecekleri başarı puanlarını takip edebilecekleri basit bir web sitesini içerir.
 
-## Özellikler
+## Özellikler :
 
 - Kullanıcıların Twitter hesaplarıyla kaydolabilmesi
 - Kullanıcıların etkileşimlerine göre başarı puanlarının hesaplanması (retweet, beğeni, yorum)
